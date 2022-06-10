@@ -33,7 +33,7 @@ all_choices = [rock, paper, scissors]
 your_choice = int(input("Введи '1' для камня, '2' для бумаги и '3' для ножниц.\n"))
 
 
-if your_choice < 1 or your_choice > 4:
+if your_choice < 1 or your_choice > 3:
   print("Ты ввел неверный номер.")
 else:
  print(f"Твой выбор:\n{all_choices[your_choice - 1]}")
